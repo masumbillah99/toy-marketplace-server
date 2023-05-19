@@ -1,5 +1,9 @@
 [
     {
+        "id": 0,
+        "category_name": "All Car"
+    },
+    {
         "id": 1,
         "category_name": "Truck"
     },
