@@ -1,0 +1,112 @@
+{
+    "toys": [
+        {
+            "_id": "123456789",
+            "picture": "https://demoprestashop.aeipix.com/AX06/mixeat115/shop3/img/p/2/6/7/267-home_default.jpg",
+            "toy_name": "Awesome Remote Car",
+            "seller_name": "Toy Kingdom",
+            "price": 29.99,
+            "rating": 4.5,
+            "available": true,
+            "quantity": 10,
+            "description": "This awesome Super Robot toy is perfect for young aspiring heroes. It comes with flashing lights, sound effects, and movable limbs. Get ready to save the day!",
+            "category_id": "1"
+        },
+        {
+            "_id": "987654321",
+            "picture": "https://demoprestashop.aeipix.com/AX06/mixeat115/shop3/img/p/2/7/4/274-home_default.jpg",
+            "toy_name": "Dollhouse Mansion",
+            "seller_name": "Tiny Treasures",
+            "price": 49.99,
+            "rating": 4.8,
+            "available": true,
+            "quantity": 5,
+            "description": "Enter a world of imagination with the Dollhouse Mansion. This beautifully crafted dollhouse features multiple rooms.",
+            "category_id": "2"
+        },
+        {
+            "_id": "456789123",
+            "picture": "https://demoprestashop.aeipix.com/AX06/mixeat115/shop3/img/p/3/0/1/301-home_default.jpg",
+            "toy_name": "Remote Control Car",
+            "seller_name": "Speedy Toys",
+            "price": 19.99,
+            "rating": 4.2,
+            "available": true,
+            "quantity": 8,
+            "description": "Race against your friends with this high-speed remote control car. It's equipped with advanced controls and a sleek design.",
+            "category_id": "1"
+        },
+        {
+            "_id": "789123456",
+            "picture": "https://demoprestashop.aeipix.com/AX06/mixeat115/shop3/img/p/2/8/8/288-home_default.jpg",
+            "toy_name": "BMW Car",
+            "seller_name": "Creative Playtime",
+            "price": 14.99,
+            "rating": 4.6,
+            "available": true,
+            "quantity": 12,
+            "description": "Unleash your creativity with these colorful building blocks. Build towering structures and let your imagination run wild.",
+            "category_id": "2"
+        },
+        {
+            "_id": "321654987",
+            "picture": "https://demoprestashop.aeipix.com/AX06/mixeat115/shop3/img/psblog/b/8/1042_712/b-blog-6.jpg",
+            "toy_name": "Jeep car",
+            "seller_name": "Brain Teasers",
+            "price": 9.99,
+            "rating": 4.3,
+            "available": true,
+            "quantity": 15,
+            "description": "Challenge yourself with this collection of mind-bending puzzles. Test your problem-solving skills and have hours of fun.",
+            "category_id": "3"
+        },
+        {
+            "_id": "654987321",
+            "picture": "https://demoprestashop.aeipix.com/AX06/mixeat115/shop3/img/p/2/9/5/295-home_default.jpg",
+            "toy_name": "Batter Jeep Car",
+            "seller_name": "Joe Biden.",
+            "price": 24.99,
+            "rating": 4.7,
+            "available": true,
+            "quantity": 6,
+            "description": "Discover the artist within you with this comprehensive art kit. It includes a variety of tools and materials to create beautiful masterpieces.",
+            "category_id": "2"
+        },
+        {
+            "_id": "654987352",
+            "picture": "https://demoprestashop.aeipix.com/AX06/mixeat115/shop3/img/p/2/7/5/275-large_default.jpg",
+            "toy_name": "Rescue Fire Truck",
+            "seller_name": "Vladimir Putin",
+            "price": 44.99,
+            "rating": 4.9,
+            "available": true,
+            "quantity": 3,
+            "description": "Discover the artist within you with this comprehensive art kit. It includes a variety of tools and materials to create beautiful masterpieces.",
+            "category_id": "4"
+        },
+        {
+            "_id": "654987859",
+            "picture": "https://images.unsplash.com/photo-1607948471279-7b616a5cdcc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dG95JTIwdHJ1Y2t8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+            "toy_name": "Coca Cola Truck",
+            "seller_name": "Coca Cola",
+            "price": 29.99,
+            "rating": 4.3,
+            "available": true,
+            "quantity": 5,
+            "description": "Discover the artist within you with this comprehensive art kit. It includes a variety of tools and materials to create beautiful masterpieces.",
+            "category_id": "4"
+        },
+        {
+            "_id": "785965498",
+            "picture": "https://images.unsplash.com/photo-1597336356925-20ae79ca25bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRveSUyMHRydWNrfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+            "toy_name": "StudBaker Truck",
+            "seller_name": "Bakery Lal",
+            "price": 21.99,
+            "rating": 4.7,
+            "available": false,
+            "quantity": 1,
+            "description": "Discover the artist within you with this comprehensive art kit. It includes a variety of tools and materials to create beautiful masterpieces.",
+            "category_id": "4"
+        }
+    ]
+}

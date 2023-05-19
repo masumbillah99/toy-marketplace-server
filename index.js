@@ -6,6 +6,8 @@ require("dotenv").config();
 const app = express();
 const port = process.env.PORT || 5000;
 
+const categories = require("./data/categories.json");
+
 // middleware
 app.use(cors());
 app.use(express.json());
@@ -36,6 +38,11 @@ async function run() {
   }
 }
 run().catch(console.dir);
+
+// load categories data
+app.get("/categories", (req, res) => {
+  res.send(categories);
+});
 
 // check server is running
 app.get("/", (req, res) => {
