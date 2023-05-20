@@ -54,6 +54,22 @@ async function run() {
       res.send(result);
     });
 
+    // update toy information
+    app.put("/updateToy/:id", async (req, res) => {
+      const id = req.params.id;
+      const body = req.body;
+      const filter = { _id: new ObjectId(id) };
+      const updateDoc = {
+        $set: {
+          price: body.price,
+          quantity: body.quantity,
+          description: body.description,
+        },
+      };
+      const result = await postCollection.updateOne(filter, updateDoc);
+      res.send(result);
+    });
+
     app.get("/carToys", async (req, res) => {
       const result = await toyCollection.find().toArray();
       res.send(result);
