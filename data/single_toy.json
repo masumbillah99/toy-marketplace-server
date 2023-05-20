@@ -1,6 +1,6 @@
 [
     {
-        "_id": "64671747514dffc30a1f2446",
+        "_id": "6467798d514dffc30a7112e7",
         "picture": "https://demoprestashop.aeipix.com/AX06/mixeat115/shop3/img/p/2/6/7/267-home_default.jpg",
         "toy_name": "Awesome Remote Car",
         "seller_name": "Toy Kingdom",
@@ -10,10 +10,11 @@
         "quantity": 10,
         "description": "This awesome Super Robot toy is perfect for young aspiring heroes. It comes with flashing lights, sound effects, and movable limbs. Get ready to save the day!",
         "category_id": "3",
-        "sub_category": "Remote Car"
+        "sub_category": "Remote Car",
+        "seller_email": "john.doe@example.com"
     },
     {
-        "_id": "64671747514dffc30a1f2447",
+        "_id": "6467798d514dffc30a7112e8",
         "picture": "https://demoprestashop.aeipix.com/AX06/mixeat115/shop3/img/p/2/7/4/274-home_default.jpg",
         "toy_name": "Dollhouse Mansion",
         "seller_name": "Tiny Treasures",
@@ -23,10 +24,11 @@
         "quantity": 5,
         "description": "Enter a world of imagination with the Dollhouse Mansion. This beautifully crafted dollhouse features multiple rooms.",
         "category_id": "2",
-        "sub_category": "Regular Car"
+        "sub_category": "Regular Car",
+        "seller_email": "jane.smith@example.com"
     },
     {
-        "_id": "64671747514dffc30a1f2448",
+        "_id": "6467798d514dffc30a7112e9",
         "picture": "https://demoprestashop.aeipix.com/AX06/mixeat115/shop3/img/p/3/0/1/301-home_default.jpg",
         "toy_name": "Remote Control Car",
         "seller_name": "Speedy Toys",
@@ -36,10 +38,11 @@
         "quantity": 8,
         "description": "Race against your friends with this high-speed remote control car. It's equipped with advanced controls and a sleek design.",
         "category_id": "3",
-        "sub_category": "Remote Car"
+        "sub_category": "Remote Car",
+        "seller_email": "mark.wilson@example.com"
     },
     {
-        "_id": "64671747514dffc30a1f2449",
+        "_id": "6467798d514dffc30a7112ea",
         "picture": "https://demoprestashop.aeipix.com/AX06/mixeat115/shop3/img/p/2/8/8/288-home_default.jpg",
         "toy_name": "BMW Car",
         "seller_name": "Creative Playtime",
@@ -49,10 +52,11 @@
         "quantity": 12,
         "description": "Unleash your creativity with these colorful building blocks. Build towering structures and let your imagination run wild.",
         "category_id": "2",
-        "sub_category": "Regular Car"
+        "sub_category": "Regular Car",
+        "seller_email": "sarah.johnson@example.com"
     },
     {
-        "_id": "64671747514dffc30a1f244a",
+        "_id": "6467798d514dffc30a7112eb",
         "picture": "https://images.pexels.com/photos/303313/pexels-photo-303313.jpeg?auto=compress&cs=tinysrgb&w=400",
         "toy_name": "Jeep car",
         "seller_name": "Brain Teasers",
@@ -62,10 +66,11 @@
         "quantity": 15,
         "description": "Challenge yourself with this collection of mind-bending puzzles. Test your problem-solving skills and have hours of fun.",
         "category_id": "5",
-        "sub_category": "Mini Police Car"
+        "sub_category": "Mini Police Car",
+        "seller_email": "michael.brown@example.com"
     },
     {
-        "_id": "64671747514dffc30a1f244b",
+        "_id": "6467798d514dffc30a7112ec",
         "picture": "https://demoprestashop.aeipix.com/AX06/mixeat115/shop3/img/p/2/9/5/295-home_default.jpg",
         "toy_name": "Batter Jeep Car",
         "seller_name": "Joe Biden.",
@@ -75,10 +80,11 @@
         "quantity": 6,
         "description": "Discover the artist within you with this comprehensive art kit. It includes a variety of tools and materials to create beautiful masterpieces.",
         "category_id": "2",
-        "sub_category": "Regular Car"
+        "sub_category": "Regular Car",
+        "seller_email": "emily.davis@example.com"
     },
     {
-        "_id": "64671747514dffc30a1f244c",
+        "_id": "6467798d514dffc30a7112ed",
         "picture": "https://demoprestashop.aeipix.com/AX06/mixeat115/shop3/img/p/2/7/5/275-large_default.jpg",
         "toy_name": "Rescue Fire Truck",
         "seller_name": "Vladimir Putin",
@@ -88,10 +94,11 @@
         "quantity": 3,
         "description": "Discover the artist within you with this comprehensive art kit. It includes a variety of tools and materials to create beautiful masterpieces.",
         "category_id": "1",
-        "sub_category": "Truck"
+        "sub_category": "Truck",
+        "seller_email": "david.jones@example.com"
     },
     {
-        "_id": "64671747514dffc30a1f244d",
+        "_id": "6467798d514dffc30a7112ee",
         "picture": "https://images.unsplash.com/photo-1607948471279-7b616a5cdcc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dG95JTIwdHJ1Y2t8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
         "toy_name": "Coca Cola Truck",
         "seller_name": "Coca Cola",
@@ -101,10 +108,11 @@
         "quantity": 5,
         "description": "Discover the artist within you with this comprehensive art kit. It includes a variety of tools and materials to create beautiful masterpieces.",
         "category_id": "1",
-        "sub_category": "Truck"
+        "sub_category": "Truck",
+        "seller_email": "olivia.thomas@example.com"
     },
     {
-        "_id": "64671747514dffc30a1f244e",
+        "_id": "6467798d514dffc30a7112ef",
         "picture": "https://images.unsplash.com/photo-1597336356925-20ae79ca25bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRveSUyMHRydWNrfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
         "toy_name": "StudBaker Truck",
         "seller_name": "Bakery Lal",
@@ -114,10 +122,11 @@
         "quantity": 1,
         "description": "Discover the artist within you with this comprehensive art kit. It includes a variety of tools and materials to create beautiful masterpieces.",
         "category_id": "1",
-        "sub_category": "Truck"
+        "sub_category": "Truck",
+        "seller_email": "william.jackson@example.com"
     },
     {
-        "_id": "64671747514dffc30a1f244f",
+        "_id": "6467798d514dffc30a7112f0",
         "picture": "https://images.pexels.com/photos/575386/pexels-photo-575386.jpeg?auto=compress&cs=tinysrgb&w=400",
         "toy_name": "Super Speed Racer",
         "seller_name": "Toy Kingdom",
@@ -127,10 +136,11 @@
         "quantity": 10,
         "description": "Experience lightning-fast speed with the Super Speed Racer. This sleek car toy is designed for ultimate racing performance.",
         "category_id": "4",
-        "sub_category": "Sports Cars"
+        "sub_category": "Sports Cars",
+        "seller_email": "ava.martin@example.com"
     },
     {
-        "_id": "64671747514dffc30a1f2450",
+        "_id": "6467798d514dffc30a7112f1",
         "picture": "https://images.pexels.com/photos/162639/digger-machine-machinery-construction-162639.jpeg?auto=compress&cs=tinysrgb&w=400",
         "toy_name": "Monster Truck Madness",
         "seller_name": "Fun Time Toys",
@@ -140,10 +150,11 @@
         "quantity": 5,
         "description": "Conquer any obstacle with the Monster Truck Madness toy. Its big wheels and powerful engine make it perfect for off-road adventures.",
         "category_id": "1",
-        "sub_category": "Truck"
+        "sub_category": "Truck",
+        "seller_email": "james.thompson@example.com"
     },
     {
-        "_id": "64671747514dffc30a1f2451",
+        "_id": "6467798d514dffc30a7112f2",
         "picture": "https://images.pexels.com/photos/5472259/pexels-photo-5472259.jpeg?auto=compress&cs=tinysrgb&w=400",
         "toy_name": "Police Pursuit",
         "seller_name": "Cop Car Toys",
@@ -153,10 +164,11 @@
         "quantity": 8,
         "description": "Join the chase with the Police Pursuit toy. Catch the bad guys and maintain law and order with this realistic police car.",
         "category_id": "5",
-        "sub_category": "Mini Police Car"
+        "sub_category": "Mini Police Car",
+        "seller_email": "sophia.harris@example.com"
     },
     {
-        "_id": "64671747514dffc30a1f2452",
+        "_id": "6467798d514dffc30a7112f3",
         "picture": "https://images.pexels.com/photos/381228/pexels-photo-381228.jpeg?auto=compress&cs=tinysrgb&w=300",
         "toy_name": "Off-Road Adventure Set",
         "seller_name": "Adventure Toys",
@@ -166,10 +178,11 @@
         "quantity": 12,
         "description": "Embark on thrilling off-road adventures with the Off-Road Adventure Set. It includes multiple vehicles and accessories for endless fun.",
         "category_id": "2",
-        "sub_category": "Regular Car"
+        "sub_category": "Regular Car",
+        "seller_email": "ethan.white@example.com"
     },
     {
-        "_id": "64671747514dffc30a1f2453",
+        "_id": "6467798d514dffc30a7112f4",
         "picture": "https://images.pexels.com/photos/248704/pexels-photo-248704.jpeg?auto=compress&cs=tinysrgb&w=400",
         "toy_name": "Convertible Cruiser",
         "seller_name": "Dream Car Toys",
@@ -179,10 +192,11 @@
         "quantity": 15,
         "description": "Ride in style with the Convertible Cruiser toy. This sleek convertible car is perfect for cruising around town with the top down.",
         "category_id": "3",
-        "sub_category": "Remote Car"
+        "sub_category": "Remote Car",
+        "seller_email": "chloe.anderson@example.com"
     },
     {
-        "_id": "64671747514dffc30a1f2454",
+        "_id": "6467798d514dffc30a7112f5",
         "picture": "https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg?auto=compress&cs=tinysrgb&w=400",
         "toy_name": "Race Track Challenge",
         "seller_name": "Race Day Toys",
@@ -192,10 +206,11 @@
         "quantity": 6,
         "description": "Get ready for an adrenaline-pumping race with the Race Track Challenge. This set includes cars, track pieces, and exciting features for thrilling races.",
         "category_id": "4",
-        "sub_category": "Sports Cars"
+        "sub_category": "Sports Cars",
+        "seller_email": "noah.miller@example.com"
     },
     {
-        "_id": "64671747514dffc30a1f2455",
+        "_id": "6467798d514dffc30a7112f6",
         "picture": "https://images.pexels.com/photos/1648419/pexels-photo-1648419.jpeg?auto=compress&cs=tinysrgb&w=400",
         "toy_name": "RC Drift Racer",
         "seller_name": "Speedy RC Toys",
@@ -205,10 +220,11 @@
         "quantity": 10,
         "description": "Master the art of drifting with the RC Drift Racer. This remote-controlled car is designed for precise control and smooth drifts.",
         "category_id": "3",
-        "sub_category": "Remote Car"
+        "sub_category": "Remote Car",
+        "seller_email": "mia.johnson@example.com"
     },
     {
-        "_id": "64671747514dffc30a1f2456",
+        "_id": "6467798d514dffc30a7112f7",
         "picture": "https://images.pexels.com/photos/581312/pexels-photo-581312.jpeg?auto=compress&cs=tinysrgb&w=400",
         "toy_name": "Construction Truck Set",
         "seller_name": "Build It Toys",
@@ -218,10 +234,11 @@
         "quantity": 5,
         "description": "Build and transport with the Construction Truck Set. This set includes various construction vehicles for a realistic building experience.",
         "category_id": "5",
-        "sub_category": "Mini Police Car"
+        "sub_category": "Mini Police Car",
+        "seller_email": "logan.thomas@example.com"
     },
     {
-        "_id": "64671747514dffc30a1f2457",
+        "_id": "6467798d514dffc30a7112f8",
         "picture": "https://images.pexels.com/photos/3120827/pexels-photo-3120827.jpeg?auto=compress&cs=tinysrgb&w=400",
         "toy_name": "Police Rescue",
         "seller_name": "Rescue Heroes",
@@ -231,10 +248,11 @@
         "quantity": 8,
         "description": "Respond to emergencies with the Ambulance Rescue toy. Save lives and provide medical assistance with this realistic ambulance.",
         "category_id": "5",
-        "sub_category": "Mini Police Car"
+        "sub_category": "Mini Police Car",
+        "seller_email": "amelia.wilson@example.com"
     },
     {
-        "_id": "64671747514dffc30a1f2458",
+        "_id": "6467798d514dffc30a7112f9",
         "picture": "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg?auto=compress&cs=tinysrgb&w=400",
         "toy_name": "Duper Speed Racer",
         "seller_name": "Toy Kingdom",
@@ -244,10 +262,11 @@
         "quantity": 5,
         "description": "Experience lightning-fast speed with the Super Speed Racer. This sleek car toy is designed for ultimate racing performance.",
         "category_id": "4",
-        "sub_category": "Sports Cars"
+        "sub_category": "Sports Cars",
+        "seller_email": "benjamin.lewis@example.com"
     },
     {
-        "_id": "64671747514dffc30a1f2459",
+        "_id": "6467798d514dffc30a7112fa",
         "picture": "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=400",
         "toy_name": "Duper Speed Racer",
         "seller_name": "Toy Kingdom",
@@ -257,6 +276,7 @@
         "quantity": 3,
         "description": "Experience lightning-fast speed with the Super Speed Racer. This sleek car toy is designed for ultimate racing performance.",
         "category_id": "4",
-        "sub_category": "Sports Cars"
+        "sub_category": "Sports Cars",
+        "seller_email": "abigail.hall@example.com"
     }
 ]

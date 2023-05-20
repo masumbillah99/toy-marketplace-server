@@ -30,9 +30,32 @@ async function run() {
     await client.connect();
 
     const toyCollection = client.db("carToysDB").collection("carToys");
+    const postCollection = client.db("carToysDB").collection("postToys");
 
     app.get("/carToys", async (req, res) => {
       const result = await toyCollection.find().toArray();
+      res.send(result);
+    });
+
+    app.get("/carToys/:id", async (req, res) => {
+      const id = req.params.id;
+      // console.log(id);
+      const query = { _id: new ObjectId(id) };
+      const result = await toyCollection.findOne(query);
+      res.send(result);
+    });
+
+    // post new toys in database
+    app.post("/postToys", async (req, res) => {
+      const postBody = req.body;
+      const result = await postCollection.insertOne(postBody);
+      // console.log(result);
+      res.send(result);
+    });
+
+    // get post all toys from database
+    app.get("/allPostToys", async (req, res) => {
+      const result = await postCollection.find({}).toArray();
       res.send(result);
     });
 
@@ -44,7 +67,7 @@ async function run() {
     // load data by category
     app.get("/categories/:id", (req, res) => {
       const id = parseInt(req.params.id);
-      console.log(id);
+      // console.log(id);
       if (id === 0) {
         res.send(allCarToys);
       } else {
