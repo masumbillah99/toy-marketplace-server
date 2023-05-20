@@ -59,6 +59,15 @@ async function run() {
       res.send(result);
     });
 
+    // get your add toys by email
+    app.get("/myToys/:email", async (req, res) => {
+      // console.log(req.params.email);3
+      const result = await postCollection
+        .find({ seller_email: req.params.email })
+        .toArray();
+      res.send(result);
+    });
+
     // load categories data
     app.get("/categories", (req, res) => {
       res.send(categories);
