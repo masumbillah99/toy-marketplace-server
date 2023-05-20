@@ -32,6 +32,28 @@ async function run() {
     const toyCollection = client.db("carToysDB").collection("carToys");
     const postCollection = client.db("carToysDB").collection("postToys");
 
+    // searching functionality
+    // creating index on two fields
+    const indexKeys = { toy_name: 1, sub_category: 1 };
+    // replace field1 and field2 with your actual field names
+    const indexOptions = { name: "nameCategory" };
+    // replace index name with the desired index name
+
+    const result = await postCollection.createIndex(indexKeys, indexOptions);
+
+    app.get("/toySearchByName/:text", async (req, res) => {
+      const searchText = req.params.text;
+      const result = await postCollection
+        .find({
+          $or: [
+            { toy_name: { $regex: searchText, $options: "i" } },
+            { sub_category: { $regex: searchText, $options: "i" } },
+          ],
+        })
+        .toArray();
+      res.send(result);
+    });
+
     app.get("/carToys", async (req, res) => {
       const result = await toyCollection.find().toArray();
       res.send(result);
