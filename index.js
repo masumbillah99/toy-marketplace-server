@@ -54,22 +54,6 @@ async function run() {
       res.send(result);
     });
 
-    // update toy information
-    app.put("/updateToy/:id", async (req, res) => {
-      const id = req.params.id;
-      const body = req.body;
-      const filter = { _id: new ObjectId(id) };
-      const updateDoc = {
-        $set: {
-          price: body.price,
-          quantity: body.quantity,
-          description: body.description,
-        },
-      };
-      const result = await postCollection.updateOne(filter, updateDoc);
-      res.send(result);
-    });
-
     app.get("/carToys", async (req, res) => {
       const result = await toyCollection.find().toArray();
       res.send(result);
@@ -106,6 +90,22 @@ async function run() {
       res.send(result);
     });
 
+    // update toy information
+    app.put("/updateToy/:id", async (req, res) => {
+      const id = req.params.id;
+      const body = req.body;
+      const filter = { _id: new ObjectId(id) };
+      const updateDoc = {
+        $set: {
+          price: body.price,
+          quantity: body.quantity,
+          description: body.description,
+        },
+      };
+      const result = await postCollection.updateOne(filter, updateDoc);
+      res.send(result);
+    });
+
     // load categories data
     app.get("/categories", (req, res) => {
       res.send(categories);
@@ -123,6 +123,14 @@ async function run() {
         );
         res.send(categoryToys);
       }
+    });
+
+    // delete toy
+    app.delete("/postToys/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await postCollection.deleteOne(query);
+      res.send(result);
     });
 
     // Send a ping to confirm a successful connection
