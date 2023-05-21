@@ -16,32 +16,30 @@ app.use(express.json());
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.og57wk2.mongodb.net/?retryWrites=true&w=majority`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
-const client = new MongoClient(uri, {
-  serverApi: {
-    version: ServerApiVersion.v1,
-    strict: true,
-    deprecationErrors: true,
-  },
-});
+const client = new MongoClient(
+  uri,
+  { useUnifiedTopology: true },
+  { useNewUrlParser: true },
+  { connectTimeoutMS: 30000 },
+  { keepAlive: 1 }
+);
 
 async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
-    await client.connect();
+    // await client.connect();
 
+    const categoryCollection = client.db("carToysDB").collection("categories");
     const toyCollection = client.db("carToysDB").collection("carToys");
     const postCollection = client.db("carToysDB").collection("postToys");
 
-    // searching functionality
-    // creating index on two fields
-    const indexKeys = { toy_name: 1, sub_category: 1 };
-    // replace field1 and field2 with your actual field names
-    const indexOptions = { name: "nameCategory" };
-    // replace index name with the desired index name
-
-    const result = await postCollection.createIndex(indexKeys, indexOptions);
-
     app.get("/toySearchByName/:text", async (req, res) => {
+      // searching functionality
+      // creating index on two fields
+      const indexKeys = { toy_name: 1, sub_category: 1 }; // replace field1 and field2 with your actual field names
+      const indexOptions = { name: "nameCategory" }; // replace index name with the desired index name
+      const result2 = await postCollection.createIndex(indexKeys, indexOptions);
+
       const searchText = req.params.text;
       const result = await postCollection
         .find({
@@ -113,19 +111,28 @@ async function run() {
       res.send(result);
     });
 
+    // app.get("/update/:id", async (req, res) => {
+    //   const id = req.params.id;
+    //   const query = { _id: new ObjectId(id) };
+    //   const result = await toyCollection.findOne(query);
+    //   res.send(result);
+    // });
+
     // load categories data
-    app.get("/categories", (req, res) => {
-      res.send(categories);
+    app.get("/categories", async (req, res) => {
+      const result = await categoryCollection.find().toArray();
+      res.send(result);
     });
 
     // load data by category
-    app.get("/categories/:id", (req, res) => {
+    app.get("/categories/:id", async (req, res) => {
+      const toys = await toyCollection.find().toArray();
       const id = parseInt(req.params.id);
-      // console.log(id);
+      console.log(id);
       if (id === 0) {
-        res.send(allCarToys);
+        res.send(toys);
       } else {
-        const categoryToys = allCarToys.filter(
+        const categoryToys = toys.filter(
           (sub) => parseInt(sub.category_id) === id
         );
         res.send(categoryToys);
@@ -141,7 +148,7 @@ async function run() {
     });
 
     // Send a ping to confirm a successful connection
-    await client.db("admin").command({ ping: 1 });
+    // await client.db("admin").command({ ping: 1 });
     console.log(
       "Pinged your deployment. You successfully connected to MongoDB!"
     );
