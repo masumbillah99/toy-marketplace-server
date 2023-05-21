@@ -81,6 +81,13 @@ async function run() {
       res.send(result);
     });
 
+    app.get("/allPostToys/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await postCollection.findOne(query);
+      res.send(result);
+    });
+
     // get your add toys by email
     app.get("/myToys/:email", async (req, res) => {
       // console.log(req.params.email);3
